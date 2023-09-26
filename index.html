@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Jogo da Memória | Halloween</title>
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="main-top-content">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Jogo da Memória">
+            </div>
+
+            <div>
+                <select class="level">
+                    <option value="easy">Nível fácil</option>
+                    <option value="difficult">Nível difícil</option>
+                </select>
+            </div>
+
+            <h2>Tentativas: <span class="player-lives-count"></span></h2>
+        </div>
+
+        <div class="main-bottom-content"></div>
+
+
+        <!-- Modal vencedor -->
+        <div id="modal-winner" class="modal-container">
+            <div class="modal">
+                <div class="modal-wrapper">
+                    <button id="close" class="close">
+                        <img src="assets/images/web.svg" alt="Fechar">
+                    </button>
+                    <div>
+                        <img src="assets/images/buuh.png" alt="Buuh!">
+                    </div>
+                    <p>Parabéns, você terminou esse jogo da memória. Experimente jogar uma outra dificuldade ou jogue na mesma novamente.</p>
+                    <button class="btn-play-again">Jogar novamente</button>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+
+    <script type="module" src="assets/js/script.js"></script>
+</body>
+
+</html>
