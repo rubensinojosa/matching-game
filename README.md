@@ -1,5 +1,7 @@
 # <div align="center">Jogo da Memória - Halloween</div>
 
+https://rubens-jogo-da-memoria.netlify.app/
+
 ## 💻 Tecnologias utilizadas 
 O projeto foi desenvolvido com as seguintes tecnologias: <br>
 
